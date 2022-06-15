@@ -10,6 +10,10 @@ h1{
   text-align: center;
 }
 
+html, body, p, h1, img{
+  max-width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6, p{
   font-family: Arial, sans-serif;
 }
@@ -19,20 +23,36 @@ img{
 }
 /* Add-on classes */
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+.hide-scrollbar{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 
+  overflow-y: hidden;
+}
+
+.center-text{
+  text-align: center;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body{
+
+}
 /* Items by ids */
 
 #navbar{
   text-align: center;
 }
 
-#sidebar>img{
+.sidebar>img{
   border-radius: 50%;
 
 
 }
-
-
 
 #bio-text{
   font-size: 1rem;
