@@ -6,8 +6,16 @@ body{
   margin: 0px;
 }
 
-html, body, p, h1{
-  max-width: 100vw;
+h1{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: Arial, sans-serif;
+}
+
+img{
+  border-radius: 2%;
 }
 /* Add-on classes */
 
@@ -24,9 +32,7 @@ html, body, p, h1{
 
 }
 
-#bio-img>img{
-  border-radius: 2%;
-}
+
 
 #bio-text{
   font-size: 1rem;

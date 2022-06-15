@@ -5,20 +5,24 @@
 
   }
 
-  img{
+  html, body, p, h1, img{
     max-width: 100%;
   }
 
   .portfolio-item{
     display: inline-flex;
+    padding: 2%;
   }
 
   .portfolio-desc{
     max-width: 40%;
+    padding-right: 3%;
+    padding-left: 3%;
   }
 
   .portfolio-img{
-    max-width: 50%;
+    max-width: 60%;
+    height: fit-content;
   }
 
   #navbar{
@@ -45,7 +49,7 @@
   }
 
   #sidebar>img{
-    margin-top: 25%;
+    margin-top: 5%;
   }
 
   #work{
