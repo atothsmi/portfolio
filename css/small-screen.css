@@ -1,5 +1,27 @@
 @media only screen and (max-width: 600px) {
-  header {
-    background-color: red;
+
+  .portfolio-heading{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .portfolio-desc, .portfolio-img, .portfolio-video{
+    max-width: 90%;
+    height: fit-content;
+
+    margin: 5%;
+  }
+
+  #bio-img{
+    max-width: 90%;
+    height: fit-content;
+
+    margin: 5%;
+  }
+
+  #bio-text {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }

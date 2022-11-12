@@ -1,16 +1,26 @@
 @media (min-width: 601px) {
+
+  .portfolio-heading{
+    width: 100%;
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
   .portfolio-item{
     display: inline-flex;
     padding: 2%;
   }
 
   .portfolio-desc{
-    max-width: 40%;
+    max-width: 60%;
     padding-right: 3%;
   }
 
-  .portfolio-img{
-    max-width: 60%;
+  .portfolio-img, .portfolio-video{
+    max-width: 40%;
     height: fit-content;
   }
 
@@ -39,12 +49,13 @@
   }
 
   #bio-img{
-    max-width: 25%;
+    max-width: 20%;
     height: fit-content;
   }
 
   #bio-text {
-    max-width: 70%;
-    padding-left: 3%;;
+    max-width: 80%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
