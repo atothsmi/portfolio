@@ -32,8 +32,6 @@ a:hover{
 
 .main{
   background-color: #948994;
-
-  border-radius: 2%;
 }
 
 .center-text{
@@ -66,7 +64,7 @@ a:hover{
 }
 
 #top-bar{
-  background-color:#190A33; 
+  background-color:#190A33;
   position: sticky;
   top: 0;
 }

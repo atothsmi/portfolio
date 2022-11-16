@@ -1,4 +1,4 @@
-@media (min-width: 601px) {
+@media (min-device-width: 601px) and (min-width: 601px) {
 
   .portfolio-heading{
     width: 100%;
@@ -26,6 +26,8 @@
 
   .main{
     display: inline-flex;
+
+    border-radius: 2%;
   }
 
   .sidebar{
