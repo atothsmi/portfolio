@@ -39,6 +39,8 @@ a:hover{
   color: #F4E9CD;
 }
 
+
+
 /* Add-on classes */
 
 .main{
@@ -65,11 +67,6 @@ a:hover{
 }
 
 /* Items by ids */
-
-.sidebar>img{
-  border-radius: 50%;
-}
-
 #bio-text{
   font-size: 1rem;
 }
@@ -78,6 +75,8 @@ a:hover{
   background-color:#190A33;
   position: sticky;
   top: 0;
+
+  z-index: 1;
 }
 
 #header{
