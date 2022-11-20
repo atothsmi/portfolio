@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 html {
   margin: 0px;
   background-color: #190A33;
@@ -11,9 +13,18 @@ html, body, p, h1, img{
   max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h4, h5, h6, p{
   font-family: Arial, sans-serif;
   color: #FBF7EE;
+}
+
+h1, h2, h3{
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #FBF7EE;
+}
+
+h1{
+  font-size: 3em;
 }
 
 img{
@@ -78,6 +89,6 @@ a:hover{
   margin-bottom: 0%;
   text-align: center;
 
-  font-size: 2.4em;
+  font-size: 4em;
   color: #FBF7EE;
 }
