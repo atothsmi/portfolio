@@ -28,7 +28,7 @@ h1{
 }
 
 img{
-  border-radius: 2%;
+  border-radius: 15px;
 }
 
 a{
@@ -36,7 +36,8 @@ a{
 }
 
 a:hover{
-  color: #F4E9CD;
+  /* color: #ffe092; */
+  color: #fad98d;
 }
 
 
@@ -44,7 +45,8 @@ a:hover{
 /* Add-on classes */
 
 .main{
-  background-color: #948994;
+  /* background-color: #948994; */
+  background-color: #b489ff;
 }
 
 .center-text{
@@ -66,6 +68,78 @@ a:hover{
   padding-right: 2%;
 }
 
+.flex-display{
+  display:flex;
+}
+
+.inline-flex{
+  display: inline-flex;
+}
+
+.subheader{
+  width: 50%;
+  display:flex;
+}
+
+.left{
+  justify-content: left;
+}
+
+.right{
+  justify-content: right;
+}
+
+.center{
+  justify-content: center;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+}
+
+.width-70{
+  max-width: 70%
+}
+
+.max-width-100{
+  max-width: 100%
+}
+
+.width-100{
+  width:100%;
+}
+.width-50{
+  width: 50%;
+}
+
+.min-width-100{
+  min-width: 100;
+}
+
+.width-80{
+  width: 80%;
+}
+
+.padding-2{
+  padding: 2%;
+}
+
+.padding-bottom-0{
+  padding-bottom: 0%;
+}
+
+.padding-top-0{
+  padding-top: 0%;
+}
+
+.margin-0{
+  margin: 0px;
+}
+
+.on-hover-clickable:hover{
+  color:#3b324a;
+}
+
 /* Items by ids */
 #bio-text{
   font-size: 1rem;
@@ -79,15 +153,32 @@ a:hover{
   z-index: 1;
 }
 
-#header{
-  display: flex;
-  justify-content: center;
-}
-
 #title{
   margin-bottom: 0%;
   text-align: center;
 
-  font-size: 4em;
+  font-size: 2em;
   color: #FBF7EE;
+}
+
+.sidebar {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 60px;
+
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 100%;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
 }

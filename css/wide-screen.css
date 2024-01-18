@@ -12,7 +12,7 @@
   .portfolio-item{
     display: inline-flex;
     padding: 2%;
-  }
+    }
 
   .portfolio-desc{
     max-width: 60%;
@@ -25,9 +25,8 @@
   }
 
   .main{
-    display: inline-flex;
 
-    border-radius: 2%;
+    border-radius: 15px
   }
 
   .sidebar{
@@ -51,12 +50,16 @@
   }
 
   #bio-img{
-    max-width: 20%;
+    max-width: 30%;
     height: fit-content;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   #bio-text {
-    max-width: 80%;
+    max-width: 70%;
     padding-left: 3%;
     padding-right: 3%;
   }
