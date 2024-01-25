@@ -132,9 +132,23 @@ a:hover{
   padding-top: 0%;
 }
 
+.padding-none{
+  padding: 0%;
+}
+
+.padding-left-3{
+  padding-left: 3%;
+}
+
+.padding-right-3{
+  padding-right: 3%;
+}
+
 .margin-0{
   margin: 0px;
 }
+
+.margin-top-
 
 .on-hover-clickable:hover{
   color:#3b324a;
