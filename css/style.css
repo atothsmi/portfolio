@@ -40,6 +40,11 @@ a:hover{
   color: #fad98d;
 }
 
+table {
+  border-collapse: collapse;
+  text-indent: 0%;
+  border-spacing: 0cap;
+}
 
 
 /* Add-on classes */
@@ -112,6 +117,13 @@ a:hover{
   width: 50%;
 }
 
+.width-40{
+  width: 40%
+}
+
+.width-30{
+  width: 30%
+}
 .min-width-100{
   min-width: 100;
 }
@@ -150,7 +162,7 @@ a:hover{
 
 .margin-top-
 
-.on-hover-clickable:hover{
+.on-hover-clickable :hover{
   color:#3b324a;
 }
 
