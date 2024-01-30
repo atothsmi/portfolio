@@ -63,4 +63,9 @@
     padding-left: 3%;
     padding-right: 3%;
   }
+
+  .subheader{
+    width: 33.3333333%;
+    display:flex;
+  }
 }
