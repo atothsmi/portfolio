@@ -6,10 +6,14 @@ function getThoughts(file){
         }
         return res.json();
     })
-    .then((data) => 
-          console.log(data))
+    .then((data) => {
+        for(let thing in data){
+            console.log(thing);
+        };
+    })
     .catch((error) => 
-           console.error("Unable to fetch data:", error));
+        console.error("Unable to fetch data:", error));
 };
 
 getThoughts('..\\js\\thoughts.json');
+

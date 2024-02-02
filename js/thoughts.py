@@ -12,10 +12,12 @@ years = os.listdir(dir_path)
 thoughts_dict = {}
 
 for year in years:
-    thoughts_dict[year] = []
+    thoughts_dict[year] = {}
     for date in os.listdir(dir_path + year + '\\'):
         with open(dir_path + year + '\\' + date, 'r') as f:
-            thoughts_dict[year] += [{date: f.readlines()}]
+            data = f.readlines()
+            if len(data) >= 2:
+                thoughts_dict[year][date] = {'title': data[0].strip(),'date': data[1].strip(),'content': data[2:]}
 
 # DEBUG:
 # for year in thoughts_dict:
