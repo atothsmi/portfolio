@@ -7,16 +7,13 @@ function getThoughts(file){
         return res.json();
     })
     .then((data) => {
-        for(let year in data){
-            console.log(year);
-            for(let date in year){
-                console.log(data[year][date])
-            };
+        for(let content in data){
+            $('#thoughts').append(content)
         };
     })
     .catch((error) => 
         console.error("Unable to fetch data:", error));
 };
 
-getThoughts('..\\js\\thoughts.json');
+getThoughts('..\\js\\thoughtsHTML.json');
 
