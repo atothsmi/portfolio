@@ -8,7 +8,7 @@ function getThoughts(file){
     })
     .then((data) => {
         for(let year in data){
-            console.log(thing);
+            console.log(year);
             for(let date in year){
                 console.log(data[year][date])
             };
