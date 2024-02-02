@@ -7,8 +7,11 @@ function getThoughts(file){
         return res.json();
     })
     .then((data) => {
-        for(let thing in data){
+        for(let year in data){
             console.log(thing);
+            for(let date in year){
+                console.log(data[year][date])
+            };
         };
     })
     .catch((error) => 
