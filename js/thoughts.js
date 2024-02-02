@@ -12,4 +12,4 @@ function getThoughts(file){
            console.error("Unable to fetch data:", error));
 };
 
-getThoughts('thoughts.json');
+getThoughts('..\\js\\thoughts.json');
