@@ -20,7 +20,7 @@ h4, h5, h6, p{
 
 h1, h2, h3{
   font-family: 'Poppins', Arial, sans-serif;
-  color: #FBF7EE;
+  color:#FBF7EE;
 }
 
 h1{
@@ -55,7 +55,7 @@ table {
 
 .main{
   /* background-color: #948994; */
-  background-color: #b489ff;
+  background-color: #7949cb;
 }
 
 .date{
